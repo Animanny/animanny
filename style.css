@@ -1,0 +1,27 @@
+#dp {
+    border-radius:50%;
+    width:25%;
+    border:8px solid #ffffff;
+}
+
+body{
+    background-color:#dbdbdb;
+}
+
+#about{
+    color:black;
+}
+
+#space{
+    background-color:white;
+}
+
+#blurb{
+    margin-top:2%;
+    font-size:150%;
+    margin-bottom:2%;
+}
+
+#name{
+    margin-bottom:2%;
+}
