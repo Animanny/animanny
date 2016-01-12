@@ -14,14 +14,14 @@ body{
 
 #space{
     background-color:white;
+    margin-top:2%;
+    margin-bottom:2%;
 }
 
 #blurb{
-    margin-top:2%;
     font-size:150%;
-    margin-bottom:2%;
 }
 
-#name{
-    margin-bottom:2%;
+#YouTubeC{
+    width:30%;
 }
