@@ -5,12 +5,26 @@
 }
 
 body{
-    background-color:#dbdbdb;
+    background-color:#CFCFCF;
 }
 
 #about{
+    
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
     color:black;
+    border:2px solid #ffffff;
+    border-radius:15%;
 }
+
+#about:hover{
+    
+    background-color:white;
+    
+}
+
 
 #space{
     background-color:white;
@@ -30,3 +44,4 @@ body{
 .col-md-6 {
     text-align: center;
 }
+
