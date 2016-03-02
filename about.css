@@ -1,10 +1,37 @@
-body{
-    background-color:#dbdbdb;
+body {
+    overflow: hidden;
+    background-image: url(assets/background.png);
 }
 
-#description{
-    
+#description {
     font-family: 'Open Sans', sans-serif;
-    font-size:20px;
-    
+    font-size: 20px;
+    color: white;
+}
+
+.vertical-center {
+    margin-top: 40vh;
+    /* These two lines are counted as one :-)       */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#about {
+    transition: all .2s ease-in;
+    color: white;
+    text-decoration:underline;
+}
+
+#about:hover {
+    background-color: white;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    /*position: fixed;*/
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 0;
 }
