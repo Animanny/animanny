@@ -1,0 +1,60 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background: url(IMG_6736_2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#title{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 25%;
+    color:white;
+}
+
+#subtitle{
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+}
+
+
+
+#links{
+    color: white;
+    text-align: center;
+    opacity: 0.75;
+    transition: opacity .18s ease-in-out;
+   -moz-transition: opacity .18s ease-in-out;
+   -webkit-transition: opacity .18s ease-in-out;
+    
+}
+
+#links:hover{
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+}
+
+#credit{
+    color: white;
+    text-align: right;
+    vertical-align: text-bottom;
